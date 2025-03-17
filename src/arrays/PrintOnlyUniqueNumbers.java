@@ -4,7 +4,7 @@ public class PrintOnlyUniqueNumbers {
 
     public static void main(String[] args) {
         
-        int[] array = {1, 1, 2, 2, 4, 5, 6};
+        int[] array = {1, 2, 3, 3, 4};
         
            for(int i=0; i<array.length; i++) {
         	   

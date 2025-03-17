@@ -20,18 +20,26 @@ public class FindMaxAndMin {
         
         System.out.println("Largest Number :"+max);
 	
-              int min = array[0];
+              int smallest = Integer.MAX_VALUE;
               
         for(int i=0; i<array.length; i++) {
         	
-        	if(array[i] < min) {
+        	if(array[i] < smallest) {
         		
-        		min = array[i];
+        		smallest = array[i];
         	}
         }
 
-        System.out.println("Smallest Number :"+min);    
+        System.out.println("Smallest Number :"+smallest);    
         
+        int secondSmallest = Integer.MAX_VALUE;
+        
+        for(int i=0; i<array.length; i++) {
+        	if(array[i]!=smallest && array[i]<secondSmallest) {
+        		secondSmallest  = array[i];
+        	}
+        }
+        System.out.println("Second Smallest Number :"+secondSmallest);   
 	}
 
 }
