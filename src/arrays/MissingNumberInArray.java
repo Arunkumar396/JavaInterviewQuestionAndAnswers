@@ -1,6 +1,6 @@
 package arrays;
 
-public class NissingNumberInArray {
+public class MissingNumberInArray {
 
 	public static void main(String[] args) {
 	
