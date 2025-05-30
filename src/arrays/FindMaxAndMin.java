@@ -20,7 +20,7 @@ public class FindMaxAndMin {
         
         System.out.println("Largest Number :"+max);
 	
-              int smallest = Integer.MAX_VALUE;
+              int smallest = Integer.MIN_VALUE;
               
         for(int i=0; i<array.length; i++) {
         	
