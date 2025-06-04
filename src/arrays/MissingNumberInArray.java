@@ -14,7 +14,7 @@ public class MissingNumberInArray {
 		for(int i=0; i<arr.length; i++) {
 			
 			sum1 = sum1 + arr[i];			
-		}	
+		}
 		// sum of range in element in array
 		for(int i=1; i<=5; i++) {
 			
