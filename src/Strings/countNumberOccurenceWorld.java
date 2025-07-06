@@ -35,7 +35,7 @@ public class countNumberOccurenceWorld {
 		  		count  = entry.getValue();
 		  	}
 		 		
-		System.out.println(c +"=="+count);  	
+		System.out.println(c +"=="+count);
 		 		
      }
 		
