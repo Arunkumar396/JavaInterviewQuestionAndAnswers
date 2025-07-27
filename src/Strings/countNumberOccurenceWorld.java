@@ -1,5 +1,4 @@
 package Strings;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -22,23 +21,17 @@ public class countNumberOccurenceWorld {
 				
 			}else {
 				omap.put(sc,1);
-			}
-			
+			}			
 		}
 		String c = "";
 		int count = 0;
 		for(Map.Entry<String, Integer>   entry : omap.entrySet()){
-		                
-		  
+		                		  
 		  	if(entry.getValue() > 0) {
 		  		c = entry.getKey();
 		  		count  = entry.getValue();
-		  	}
-		 		
-		System.out.println(c +"=="+count);
-		 		
-     }
-		
+		  	}		 		
+		System.out.println(c +"=="+count); 		
+     }	
 	}
-
 }
